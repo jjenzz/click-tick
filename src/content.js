@@ -118,8 +118,8 @@ class ClickTick {
 
   calculateFrames(ms) {
     return {
-      fps60: Math.round(ms / 16.6667),
-      fps120: Math.round(ms / 8.3333),
+      fps60: Math.ceil(ms / 16.6667),
+      fps120: Math.ceil(ms / 8.3333),
     };
   }
 
