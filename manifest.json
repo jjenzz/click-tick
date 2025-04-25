@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "ClickTick",
+  "version": "1.0",
+  "description": "Track webpage reaction times to user navigation events",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_title": "ClickTick",
+    "default_icon": {
+      "16": "src/icons/icon.png",
+      "32": "src/icons/icon@2x.png",
+      "48": "src/icons/icon@3x.png",
+      "128": "src/icons/icon@4x.png"
+    }
+  },
+  "icons": {
+    "16": "src/icons/icon.png",
+    "32": "src/icons/icon@2x.png",
+    "48": "src/icons/icon@3x.png",
+    "128": "src/icons/icon@4x.png"
+  },
+  "background": {
+    "service_worker": "src/background.js"
+  }
+}
