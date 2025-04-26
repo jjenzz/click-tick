@@ -214,12 +214,15 @@
       heading.setAttribute('data-clicktick-event-type', eventType);
       heading.style.color = 'white';
       heading.style.fontWeight = 'bold';
+      heading.style.marginBottom = '4px';
       heading.textContent = eventType;
 
       const ms = document.createElement('div');
       const fps60 = document.createElement('div');
       const fps120 = document.createElement('div');
       ms.textContent = 'No nav detected';
+      fps60.style.marginTop = '2px';
+      fps120.style.marginTop = '2px';
 
       section.appendChild(heading);
       section.appendChild(ms);

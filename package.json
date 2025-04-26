@@ -1,14 +1,19 @@
 {
   "name": "click-tick",
   "version": "1.0.0",
-  "description": "",
+  "author": "Jenna Smith <175330+jjenzz@users.noreply.github.com> (https://github.com/jjenzz)",
+  "description": "Measure time between user interaction and page navigation",
   "main": "background.js",
+  "license": "MIT",
+  "bugs": "https://github.com/jjenzz/click-tick/issues",
+  "homepage": "https://github.com/jjenzz/click-tick",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjenzz/click-tick.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "prettier": "^3.5.3"
   },

@@ -2,11 +2,8 @@
   "manifest_version": 3,
   "name": "ClickTick",
   "version": "1.0",
-  "description": "Track webpage reaction times to user navigation events",
-  "permissions": [
-    "scripting",
-    "activeTab"
-  ],
+  "description": "Measure time between user interaction and page navigation",
+  "permissions": ["scripting", "activeTab"],
   "action": {
     "default_title": "ClickTick",
     "default_icon": {
