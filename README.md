@@ -2,7 +2,7 @@
 
 A Chrome extension that measures webpage reaction times to user navigation events. Track how quickly a webpage responds to clicks on buttons and links, with timing displayed in milliseconds and frames.
 
-<video src="https://github.com/user-attachments/assets/2a382dd5-40b3-4488-b913-14f61891feb2" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px"></video>
+<video src="https://github.com/user-attachments/assets/ff4467ea-95db-4f37-948a-fe97ba929f2e" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px"></video>
 
 ## Features
 
@@ -15,6 +15,7 @@ A Chrome extension that measures webpage reaction times to user navigation event
 ## Installation
 
 1. Download the extension:
+
    - Click the green "Code" button at the top of this repository
    - Select "Download ZIP"
    - Extract the ZIP file to a location on your computer
