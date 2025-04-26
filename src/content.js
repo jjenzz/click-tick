@@ -209,15 +209,11 @@
     createSection(eventType) {
       const section = document.createElement('div');
       section.id = `clicktick-${eventType}`;
-      section.style.marginBottom = '8px';
-      section.style.paddingBottom = '8px';
-      section.style.borderBottom = '1px solid rgba(255, 255, 255, 0.2)';
 
       const heading = document.createElement('div');
       heading.setAttribute('data-clicktick-event-type', eventType);
       heading.style.color = 'white';
       heading.style.fontWeight = 'bold';
-      heading.style.marginBottom = '4px';
       heading.textContent = eventType;
 
       const ms = document.createElement('div');
@@ -240,7 +236,14 @@
     }
 
     initializeBox() {
+      const hr = document.createElement('hr');
+      hr.style.cssText = `
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        margin: 8px 0;
+      `;
       this.box.appendChild(this.sections.pointerdown.element);
+      this.box.appendChild(hr);
       this.box.appendChild(this.sections.pointerup.element);
       document.body.appendChild(this.box);
       this.setupDraggable();
